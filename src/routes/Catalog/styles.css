@@ -11,7 +11,9 @@
 }
 
 .ct-catalog-cards-container {
-  border: 1px solid blue;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 20px;
 }
 
 @media (min-width: 576px) {
